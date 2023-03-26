@@ -1,0 +1,100 @@
+/* Set the background color to a dark blue */
+body {
+    background-color: #051d4d;
+    color: #fff;
+  }
+  
+  /* Set the font to a classic pixel font */
+  body, button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+  }
+  
+  /* Add a border to all images */
+  img {
+    border: 2px solid #fff;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #05668d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the main content area */
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  /* Style the individual blog posts */
+  .blog {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    background-color: #023e8a;
+  }
+  
+  /* Style the blog post title */
+  .blog .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the blog post author */
+  .blog .author {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  /* Style the button when hovered over */
+  button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Style the input field */
+  input {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #023e8a;
+    color: #fff;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the form label */
+  label {
+    margin: 10px;
+  }
+  
+  /* Style the error message */
+  .error {
+    color: #f44336;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
